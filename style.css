@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+
+:root{
+    --blue: #2563eb;
+    --gray: gray;
+    --off-white: #f3f4f6;
+}
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.header{
+    font-size: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+    background-color: var(--blue);
+    max-width: 100%;
+}
+
+.img-txt{
+    font-size: larger;
+    margin-top: 0px;
+}
+
+input{
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.1rem;
+    height: 1.7rem;
+    font-size: large;
+    size: 10rem;
+}
+
+.head-angle{
+    color: blue;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
+
+.btn-click {
+    padding: 8px 16px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.1s;
+  }
+  
+  .btn-click:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+
+  .op-text{
+    font-size: x-large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .alert-line{
+    color: red;
+  }
+
+  .navi{
+    text-align: center;
+}
+
+.inverted-text{
+    color: var(--blue);
+}
+
+
+
+#txt-output{
+    text-align: left;
+    margin-bottom: 4rem;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    display: block;
+    height: 10vh;
+    width: 40%;
+    border: 1px solid black;
+}
+
+
+#txt-input{
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    height: 10vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 0.7rem;
+
+
+}
+
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.1s;
+  }
+  
+  .btn:hover {
+    background-color: var(--blue);
+    color: black;
+  }
+
+p{
+    text-align: center;
+}
+
+footer{
+    padding: 2rem;
+    padding-bottom: 0.2rem;
+    padding-top: 1rem;
+    background-color: var(--blue);
+    text-align: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    text-align: center;
+    max-width: 100%;
+}
+
+main .main-p{
+    max-width: max-content;
+    margin-left: 28.6%;
+    margin-bottom: 0px;
+}
